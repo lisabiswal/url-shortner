@@ -13,6 +13,7 @@ export const createShortUrlRouter = router.post("/", (req, res)=>{
   url_model.save();
   res.send(`http://localhost:3100/${shortUrl}`);
 })
+
 // redirect to original url
 export const redirectToOriginalUrl = router.get("/:shortUrl", async (req, res)=>{
   const {shortUrl} = req.params;
