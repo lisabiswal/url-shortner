@@ -1,0 +1,41 @@
+.short-url-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+.short-url-input input {
+  width: 30rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgba(39, 38, 38, 0.363);
+  border: none;
+  border: 1px solid rgb(159, 157, 157);
+  outline: none;
+  color: white;
+
+}
+.short-url-input button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(209, 152, 244, 0.812);
+  border-radius: 0 10px 10px 0px;
+  color: rgb(231, 225, 225);
+  background-color: rgba(79, 5, 125, 0.812);
+}
+.short-url-input button:active {
+    transform: scale(0.98);   /* makes it look pressed */
+}
+.short-url{
+  text-align: center;
+}
+.short-url .url{
+  color: rgb(146, 144, 239);
+}
+.short-url p{
+  margin-top: 1rem;
+}
