@@ -13,7 +13,7 @@
   border: none;
   border: 1px solid rgb(159, 157, 157);
   outline: none;
-  color: white;
+  color: rgba(65, 155, 251, 0.711);
 
 }
 .short-url-input button {
@@ -35,7 +35,28 @@
 }
 .short-url .url{
   color: rgb(146, 144, 239);
+  cursor: pointer;
 }
 .short-url p{
-  margin-top: 1rem;
+  margin: 1rem;
 }
+.short-url .copy-url{
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: rgba(37, 16, 51, 0.812);
+}
+
+.short-url .qr{
+  margin-top: 3rem;
+}
+
+.short-url .download{
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: rgba(37, 16, 51, 0.812);
+}
+
