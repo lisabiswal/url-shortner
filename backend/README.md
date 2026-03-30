@@ -191,7 +191,7 @@ GET /qr/:shortUrl
 
 ## 👩‍💻 Author
 
-**Lisa**
+**Monalisa Biswal**
 
 ---
 
