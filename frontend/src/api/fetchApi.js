@@ -1,6 +1,6 @@
 import axios from "axios";
 const API = import.meta.env.VITE_API_URL;
-// console.log("API URL:", API);
+console.log("API URL:", API);
 export const fetchShortUrl = async (longUrl) => {
   try {
     const response = await axios.post(
